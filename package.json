@@ -1,0 +1,23 @@
+{
+  "name": "minesweeper-ai",
+  "version": "1.0.0",
+  "description": "learns minsweeper",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheChickenKnight/minesweeper-ai.git"
+  },
+  "author": "TheChickenKnight",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheChickenKnight/minesweeper-ai/issues"
+  },
+  "homepage": "https://github.com/TheChickenKnight/minesweeper-ai#readme",
+  "dependencies": {
+    "neataptic": "^1.4.7"
+  }
+}
