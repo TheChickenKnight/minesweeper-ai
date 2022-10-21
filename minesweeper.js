@@ -1,8 +1,8 @@
 const DIMENSIONS = {
-    W: 400,
-    H: 400
+    W: 10,
+    H: 8
 };
-const BOMB_AMOUNT = 500;
+const BOMB_AMOUNT = 10;
 const BOMB = 9;
 const UNCHECKED = 10;
 const CHECKED = 11;
@@ -68,6 +68,6 @@ export default class Minesweeper {
     }
 
     toString() {
-        return this.data.map(row => row.map(el => el == BOMB ? 'B' : (el == UNCHECKED ? '#' : (el == CHECKED ? '+' : el))).join(' ')).join('\n');
+        return this.data.map(row => row.map(el => el == BOMB ? 'B' : (el == UNCHECKED ? '#' : (el == CHECKED ? 0 : el))).join(' ')).join('\n');
     }
 }
